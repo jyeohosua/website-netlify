@@ -60,6 +60,7 @@ import {
   SiSap,
   SiZoho,
   SiPostgresql,
+  SiGooglecloud,
 } from "react-icons/si";
 
 import { FaRust } from "react-icons/fa";
@@ -67,14 +68,14 @@ import { FaRust } from "react-icons/fa";
 
 import { FaGolang } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiRuby } from "react-icons/di";
+import { DiCss3, DiGoogleCloudPlatform, DiJava, DiRuby } from "react-icons/di";
 import { VscAzure } from "react-icons/vsc";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { PiMicrosoftExcelLogoFill, PiMicrosoftPowerpointLogoFill } from "react-icons/pi";
 import { TiVendorMicrosoft } from "react-icons/ti";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1GHidUYsEgDY0qCmygp4pid9A6I8xFWXw/view?usp=drive_link";
+  "https://drive.google.com/uc?export=download&id=1nAN10oa-MCzDRB4a3Gg_gz-0fSmN8PA6";
 export const repoLink = "https://www.linkedin.com/in/joshua-huqueriza/";
 
 export const callToAction = "https://www.linkedin.com/in/joshua-huqueriza/";
@@ -556,28 +557,38 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiPython,
+        name: "Python",
       },
       {
         id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        icon: SiMysql,
+        name: "MySQL",
       },
-      {
+     {
         id: "icon-3",
-        icon: SiReact,
-        name: "React.js",
+        icon: SiGooglecloud,
+        name: "Cloud Platform",
       },
       {
         id: "icon-4",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: PiMicrosoftExcelLogoFill,
+        name: "Excel",
       },
       {
         id: "icon-5",
-        icon: SiClaude,
-        name: "Claude Sonnet",
+        icon: TiVendorMicrosoft,
+        name: "Office365",
+      },
+      {
+        id: "icon-6",
+        icon: SiDotnet,
+        name: ".Net",
+      },
+      {
+        id: "icon-7",
+        icon: SiJavascript,
+        name: "JavaScript",
       },
     ],
   },
@@ -591,19 +602,29 @@ export const projects = [
       "Led a project to streamline workflows for the Retention and Sales teams. Key improvements include automated dispute tracking, enhanced award accuracy, reduced reversals, and better visibility of retention memos — boosting overall efficiency and client service.",
     stack: [
       {
-        id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        id: "icon-1",
+        icon: SiGoogleanalytics,
+        name: "PowerBI",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiTableau,
+        name: "Tableau",
       },
       {
-        id: "pl-2",
-        icon: SiPython,
-        name: "Python",
+        id: "icon-3",
+        icon: PiMicrosoftPowerpointLogoFill,
+        name: "Powerpoint",
+      },
+      {
+        id: "icon-4",
+        icon: SiSap,
+        name: "SAP",
+      },
+      {
+        id: "icon-4",
+        icon: TiVendorMicrosoft,
+        name: "Office365",
       },
     ],
   },
@@ -618,8 +639,18 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
-        icon: FaRust,
-        name: "Rust",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
+      },
+      {
+        id: "icon-3",
+        icon: SiPython,
+        name: "Python",
       },
     ],
   },
