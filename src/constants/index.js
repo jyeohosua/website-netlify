@@ -2,9 +2,6 @@ import {
   gdsc,
   genesis,
   devfolio,
-  ethglobal,
-  polkadot,
-  ethindia,
   ama,
   sti,
   slhs,
@@ -51,10 +48,7 @@ import {
   SiNetlify,
   SiVite,
   SiDotnet,
-  SiTypescript,
-  SiClaude,
   SiOracle,
-  SiSimpleanalytics,
   SiGoogleanalytics,
   SiTableau,
   SiSap,
@@ -68,7 +62,7 @@ import { FaRust } from "react-icons/fa";
 
 import { FaGolang } from "react-icons/fa6";
 
-import { DiCss3, DiGoogleCloudPlatform, DiJava, DiRuby } from "react-icons/di";
+import { DiCss3, DiJava, DiRuby } from "react-icons/di";
 import { VscAzure } from "react-icons/vsc";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { PiMicrosoftExcelLogoFill, PiMicrosoftPowerpointLogoFill } from "react-icons/pi";
@@ -109,9 +103,10 @@ export const educationList = [
     id: "education-1",
     icon: sti,
     title: "STI College",
-    degree: "Bachelor of Technology",
+    degree: "College",
     duration: "August 2024",
-    content1: "Major: Information Technology",
+    content1: "Major: Bachelor of Science in Information Technology",
+    content2: "Studied software-related subjects such as Data Structures, Java, Python, C++, Visual Studio, and others.",
   },
   {
     id: "education-2",
@@ -119,11 +114,8 @@ export const educationList = [
     title: "AMA Computer College",
     degree: "College & Senior High School",
     duration: "June 2018 - April 2020",
-    duration: "Major: Bachelor of Science in Information Technology",
-    duration: "Senior High School: Information and Communications Technology",
-    content1: "Studied software-related subjects such as Data Structures, Java, Python, C++, Visual Studio, and others.",
-    content2: "I have done courses on Web Development, Data Science, Cloud Computing and Full Stack Development.",
-    content3: "Selected to receive one of the Excellence Awards, which are given to the top 10% of students in college. Additionally, I received an award from the respected school director for outstanding academic performance.",
+    content1: "I have done courses on Web Development, Data Science, Cloud Computing and Full Stack Development.",
+    content2: "Selected to receive one of the Excellence Awards, which are given to the top 10% of students in college. Additionally, I received an award from the respected school director for outstanding academic performance.",
   },
   {
     id: "education-3",
