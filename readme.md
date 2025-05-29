@@ -1,4 +1,4 @@
-<h1 align="center"> Personal Portfolio </h1>
+<h1 align="center"> Website Portfolio </h1>
 
 <img width="945" alt="image" src="/src/assets/Homepage.png">
 

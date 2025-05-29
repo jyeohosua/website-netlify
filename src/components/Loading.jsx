@@ -15,7 +15,7 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={haku} alt="Joshua Huqueriza" className="w-[200px] h-[150px]" />
+      <img src={haku} alt="Joshua Huqueriza" className="w-[150px] h-[100px]" />
     </motion.div>
   );
 };
