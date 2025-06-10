@@ -467,7 +467,7 @@ export const experiences = [
     positions: [
       {
         title: "Subject Matter Expert",
-        duration: "September 2022 - July 2023",
+        duration: "July 2022 - July 2023",
         content: [
           {
             text: "▪ Promoted as subject matter expert and successfully handled 3 teams, helping advisors understand the nuances of the business ensuring the details are correct and will meet the needs of operations, processes, and best practices.",
@@ -481,7 +481,7 @@ export const experiences = [
       },
       {
         title: "Senior Program Specialist",
-        duration: "September 2022 - July 2023",
+        duration: "January 2022 - July 2023",
         content: [
           {
             text: "▪ Responsible for handling technical escalations and more advanced inquiries, including payment transactions, logistics handling, warehouse processes, and escalated concerns.",
