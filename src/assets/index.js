@@ -51,6 +51,7 @@ import lexpert from "./lexpert.png";
 import specialist from "./specialist.png";
 import project from "./project.png";
 import haku from "./haku.svg";
+import hellofresh from "./logohellofresh.png";
 
 export {
   menu,
@@ -105,5 +106,6 @@ export {
   specialist,
   project,
   haku,
+  hellofresh,
   placeholder
 };

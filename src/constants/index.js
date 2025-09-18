@@ -16,7 +16,8 @@ import {
   project,
   yellowbelt,
   specialist,
-  whitebelt
+  whitebelt,
+  hellofresh,
 } from "../assets";
 
 import {
@@ -55,6 +56,8 @@ import {
   SiZoho,
   SiPostgresql,
   SiGooglecloud,
+  SiSnowflake,
+  SiGooglesheets,
 } from "react-icons/si";
 
 import { FaRust } from "react-icons/fa";
@@ -369,47 +372,57 @@ export const skills = [
         name: "Oracle Cloud",
       },
       {
-        id: "t-1",
+        id: "t-2",
         icon: VscAzure,
         name: "Azure",
       },
       {
-        id: "t-2",
+        id: "t-3",
         icon: SiPostgresql,
         name: "PostgreSQL",
       },
       {
-        id: "t-3",
+        id: "t-4",
         icon: SiPostman,
         name: "Postman",
       },
       {
-        id: "t-4",
+        id: "t-5",
         icon: BiLogoVisualStudio,
         name: "VS Code",
       },
       {
-        id: "t-5",
+        id: "t-6",
         icon: SiGit,
         name: "Git",
       },
       {
-        id: "t-6",
+        id: "t-7",
         icon: AiFillGithub,
         name: "GitHub",
       },
       {
-        id: "t-7",
+        id: "t-8",
         icon: AiOutlineGitlab,
         name: "Gitlab",
       },
       {
-        id: "t-8",
+        id: "t-9",
         icon: SiNetlify,
         name: "Netlify",
       },
       {
-        id: "t-9",
+        id: "t-10",
+        icon: SiSnowflake,
+        name: "Snowflake",
+      },
+      {
+        id: "t-11",
+        icon: SiGooglesheets,
+        name: "Google Sheets",
+      },
+      {
+        id: "t-12",
         icon: SiVite,
         name: "ViteJS",
       },
@@ -420,13 +433,54 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
+    organisation: "Hello Fresh | Hello Connect, Philippines",
+    logo: hellofresh,
+    link: "https://www.hellofresh.com/about/about-us",
+    positions: [
+      {
+        title: "Procurement Analytics Coordinator",
+        duration: "September 2025 - Present",
+        content: [
+          {
+            text: "▪ Oversee and optimize data tools and sources by executing scripts, configuring triggers, and managing access controls, ensuring integrity, accuracy, and operational efficiency.",
+            link: "",
+          },
+          {
+            text: "▪ Prepare, validate, and distribute recurring reports while accurately capturing daily operational metrics, supporting transparent performance tracking and reliable decision-making.",
+            link: "",
+          },
+          {
+            text: "▪ Conduct data reviews and ad-hoc analyses to identify irregularities, trends, and process gaps, providing actionable insights and timely escalation to procurement and inbound teams.",
+            link: "",
+          },
+          { 
+            text: "▪ Monitor and resolve Jira/ICS tickets, prioritizing requests and keeping projects aligned with deadlines and milestones.",
+            link: "",
+          },
+          {
+            text: "▪ Coordinate weekly recipe distributions to external kitchen partners, maintaining smooth cross-team collaboration and consistent communication.",
+            link: "",
+          },
+          {
+            text: "▪ Compile and present weekly and monthly inbound logistics performance data, highlighting improvement opportunities and supporting operational strategies.",
+            link: "",
+          },
+          {
+            text: " ",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
     organisation: "Citibank, Philippines",
     logo: citi,
     link: "https://www.citigroup.com/global",
     positions: [
       {
         title: "Operations Analyst",
-        duration: "September 2023 - Present",
+        duration: "September 2023 - September 2025",
         content: [
           {
             text: "▪ Managed consumer banking, private banking, and providing services to clients internationally.",
